@@ -2,33 +2,6 @@
 
 This project implements a vLLM orchestrator and load balancer for managing distributed inference across multiple nodes.
 
-## Project Structure
-vllm-orchestrator/
-├── app/
-│ ├── main.py
-│ ├── api/
-│ │ ├── init.py
-│ │ ├── models.py
-│ │ └── routes.py
-│ ├── core/
-│ │ ├── init.py
-│ │ ├── config.py
-│ │ └── logging.py
-│ ├── services/
-│ │ ├── init.py
-│ │ ├── cluster_manager.py
-│ │ ├── docker_manager.py
-│ │ ├── load_balancer.py
-│ │ ├── model_manager.py
-│ │ └── resource_monitor.py
-│ └── utils/
-│ ├── init.py
-│ └── docker_utils.py
-├── tests/
-├── Dockerfile
-├── requirements.txt
-└── README.md
-
 
 ## Key Components
 
